@@ -4,7 +4,7 @@ teachers = [
 
     {
         "id": 0,
-        "name": "Morris Simmmons",
+        "name": "Morris Simmons",
         "about": "Репетитор американского английского языка. Структурированная система обучения. Всем привет! Я "
                  "предпочитаю называть себя «тренером» английского языка. Мои занятия похожи на тренировки",
         "rating": 4.2,
@@ -35,7 +35,7 @@ teachers = [
         "about": "I am a native speaker and conversation tutor, providing private English conversation lessons using "
                  "something called Life Learning.This method allows students to take complete control of how and what "
                  "they learn. It is student-led learning focusing on interests, life goals, enjoyment and effective "
-                 "learning for you, as an individual.Stop wasting time with textbooks, tests and unneccesary "
+                 "learning for you, as an individual.Stop wasting time with textbooks, tests and unnecessary "
                  "pressure. Find a love for learning and speaking English with creativity and freedom. The lessons "
                  "are completely chosen by you to keep you motivated and driven to achieve your goals.",
         "rating": 4.8,
@@ -122,8 +122,8 @@ teachers = [
     },
     {
         "id": 4,
-        "name": "Gulya S",
-        "about": "Hello! My name is Gulya :) I am a native speaker of the Russian language and I am fluent in "
+        "name": "Gully S",
+        "about": "Hello! My name is Gully :) I am a native speaker of the Russian language and I am fluent in "
                  "English. I have been teaching online for 3 years now. I have an individual program, having studied "
                  "your requirements, I am preparing a special program. plan, and therefore deal) Books Cambridge, "
                  "Oxford, etc. I train and develop colloquial speech. We study words, stable combinations and put "
