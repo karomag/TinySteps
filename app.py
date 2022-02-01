@@ -1,6 +1,13 @@
-from flask import Flask
+import json
+
+from flask import Flask, render_template, abort
 
 app = Flask(__name__)
+
+with open('teachers.json', 'r') as f:
+    teachers: list = json.load(f)
+with open('goals.json', 'r') as f:
+    goals: dict = json.load(f)
 
 
 @app.route('/')
@@ -19,9 +26,13 @@ def goal_page(goal):
     return f'цель {goal}'
 
 
-@app.route('/profiles/<teacher_id>/')
+@app.route('/profiles/<int:teacher_id>/')
 def teacher_page(teacher_id):
-    return f'преподаватель {teacher_id}'
+    if teacher_id > len(teachers) - 1:
+        abort(404)
+    teacher = teachers[teacher_id]
+    goal = goals.get(teacher.get('goals')[0])
+    return render_template('profile.html', teacher=teacher, goal=goal)
 
 
 @app.route('/request/')
