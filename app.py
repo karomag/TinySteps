@@ -27,7 +27,7 @@ def goal_page(goal):
 
 
 @app.route('/profiles/<int:teacher_id>/')
-def teacher_page(teacher_id):
+def teacher_page(teacher_id=None):
     if teacher_id > len(teachers) - 1:
         abort(404)
     teacher = teachers[teacher_id]
@@ -45,8 +45,8 @@ def request_done_page():
     return 'заявка на подбор отправлена'
 
 
-@app.route('/booking/<teacher_id>/<day>/<time>/')
-def booking_page(teacher_id, day, time):
+@app.route('/booking/<int:teacher_id>/<string:day>/<string:time>/')
+def booking_page(teacher_id=None, day=None, time=None):
     return f'форма бронирования {teacher_id} на {day} {time}'
 
 
@@ -56,4 +56,4 @@ def booking_done_page():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
