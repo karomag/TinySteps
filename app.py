@@ -30,9 +30,10 @@ def goal_page(goal):
 def teacher_page(teacher_id=None):
     if teacher_id > len(teachers) - 1:
         abort(404)
-    teacher = teachers[teacher_id]
+    teacher: dict = teachers[teacher_id]
     goal = goals.get(teacher.get('goals')[0])
-    return render_template('profile.html', teacher=teacher, goal=goal)
+    title = f'Профиль {teacher["name"]}'
+    return render_template('profile.html', title=title, teacher=teacher, goal=goal)
 
 
 @app.route('/request/')
