@@ -1,3 +1,13 @@
+{% set weekdays = {
+    'mon': 'Понедельник',
+    'tue': 'Вторник',
+    'wed': 'Среда',
+    'thu': 'Четверг',
+    'fri': 'Пятница',
+    'sat': 'Суббота',
+    'sun': 'Воскресенье'
+    } %}
+
 <!DOCTYPE html>
 <html lang="ru">
 
@@ -21,7 +31,7 @@
                     <a class="nav-link" href="{{ url_for('all_page') }}">Все репетиторы</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url_for('booking_page', day=0, teacher_id=0, time=0) }}">Заявка на подбор</a>
+                    <a class="nav-link" href="{{ url_for('request_form') }}">Заявка на подбор</a>
                 </li>
             </ul>
         </div>

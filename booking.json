@@ -1,0 +1,18 @@
+[
+    {
+        "clientWeekday": "mon",
+        "clientTime": "18:00",
+        "clientTeacher": "{'id': 0, 'name': 'Morris Simmons', 'about': 'Репетитор американского английского языка. Структурированная система обучения. Всем привет! Я предпочитаю называть себя «тренером» английского языка. Мои занятия похожи на тренировки', 'rating': 4.2, 'picture': 'https://i.pravatar.cc/300?img=20', 'price': 900, 'goals': ['travel', 'relocate', 'study'], 'free': {'mon': {'8:00': False, '10:00': True, '12:00': True, '14:00': False, '16:00': False, '18:00': False, '20:00': False, '22:00': False}, 'tue': {'8:00': True, '10:00': True, '12:00': False, '14:00': False, '16:00': False, '18:00': False, '20:00': False, '22:00': False}, 'wed': {'8:00': True, '10:00': True, '12:00': False, '14:00': False, '16:00': False, '18:00': False, '20:00': False, '22:00': False}, 'thu': {'8:00': True, '10:00': True, '12:00': False, '14:00': False, '16:00': False, '18:00': False, '20:00': False, '22:00': False}, 'fri': {'8:00': True, '10:00': True, '12:00': False, '14:00': False, '16:00': False, '18:00': False, '20:00': False, '22:00': False}, 'sat': {'8:00': False, '10:00': False, '12:00': False, '14:00': False, '16:00': True, '18:00': True, '20:00': True, '22:00': False}, 'sun': {'8:00': False, '10:00': False, '12:00': False, '14:00': False, '16:00': True, '18:00': True, '20:00': True, '22:00': False}}}",
+        "csrf_token": "IjQ5YTZiMTUwZjNmNGJjMGNkNWE5ZDUxMjQ2NGRjMjBkYjY3Y2Q2NjEi.YgF3Vw.eAbZUXFQfvGS0G30bhc2Qm4KtdY",
+        "clientName": "Роман",
+        "clientPhone": "8-951-547-61-54"
+    },
+    {
+        "clientWeekday": "tue",
+        "clientTime": "22:00",
+        "clientTeacher": "{'id': 5, 'name': 'Yan M', 'about': 'Hello! My name is Yang and for more than five years I have been teaching English. I spent part of this time in China, where I worked with students from 3 to 40 years old. I deal with both adults and children. But for all ages, I try to make my classes fun and interactive. Teaching English to me is not just a language lesson. I always try to attract a wider cultural and historical context that helps my students understand more about the language and its features. A degree in history helps me a lot to create such an intellectual environment in the classroom.For each student, I develop an individual curriculum that depends on its goals and needs.', 'picture': 'https://i.pravatar.cc/300?img=30', 'rating': 3.9, 'price': 800, 'goals': ['travel', 'study'], 'free': {'mon': {'8:00': False, '10:00': False, '12:00': False, '14:00': False, '16:00': True, '18:00': True, '20:00': True, '22:00': True}, 'tue': {'8:00': False, '10:00': False, '12:00': False, '14:00': False, '16:00': True, '18:00': True, '20:00': True, '22:00': True}, 'wed': {'8:00': False, '10:00': False, '12:00': False, '14:00': False, '16:00': True, '18:00': True, '20:00': True, '22:00': True}, 'thu': {'8:00': False, '10:00': False, '12:00': False, '14:00': False, '16:00': True, '18:00': True, '20:00': True, '22:00': True}, 'fri': {'8:00': False, '10:00': False, '12:00': False, '14:00': False, '16:00': False, '18:00': False, '20:00': False, '22:00': False}, 'sat': {'8:00': False, '10:00': False, '12:00': False, '14:00': False, '16:00': False, '18:00': False, '20:00': False, '22:00': False}, 'sun': {'8:00': False, '10:00': False, '12:00': False, '14:00': False, '16:00': False, '18:00': False, '20:00': False, '22:00': False}}}",
+        "csrf_token": "IjQ5YTZiMTUwZjNmNGJjMGNkNWE5ZDUxMjQ2NGRjMjBkYjY3Y2Q2NjEi.YgF3Zw.jXF1Pv7ZoYlWA7Fs8trfSSPK9xk",
+        "clientName": "Роман",
+        "clientPhone": "8-951-547-61-54"
+    }
+]

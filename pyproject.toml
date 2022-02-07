@@ -7,6 +7,7 @@ authors = ["karomag <roma-novikov@mail.ru>"]
 [tool.poetry.dependencies]
 python = "^3.9"
 Flask = "^2.0.2"
+Flask-WTF = "^1.0.0"
 
 [tool.poetry.dev-dependencies]
 
