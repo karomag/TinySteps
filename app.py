@@ -8,9 +8,9 @@ from wtforms.validators import InputRequired
 app = Flask(__name__)
 app.config.from_object('config')
 
-with open('teachers.json') as f:
+with open('data/teachers.json') as f:
     teachers: list = json.load(f)
-with open('goals.json') as f:
+with open('data/goals.json') as f:
     goals: dict = json.load(f)
 
 
@@ -69,10 +69,10 @@ def booking_form(teacher_id=None, day=None, time=None):
 def booking_done():
     form = BookingForm()
 
-    with open('booking.json') as f:
+    with open('data/booking.json') as f:
         booking_list = json.load(f)
     booking_list.append(request.form.to_dict())
-    with open('booking.json', 'w') as f:
+    with open('data/booking.json', 'w') as f:
         json.dump(booking_list, f, indent=4, ensure_ascii=False)
 
     return render_template('booking_done.html', form=form)
