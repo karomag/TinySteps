@@ -2,7 +2,7 @@ import json
 
 from flask import Flask, render_template, abort, request
 from flask_wtf import FlaskForm
-from wtforms import StringField, HiddenField, TelField, SubmitField
+from wtforms import StringField, HiddenField, TelField
 from wtforms.validators import InputRequired
 
 app = Flask(__name__)
